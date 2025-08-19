@@ -95,8 +95,8 @@ unzip sakila-db.zip
 
 1.8. Восстановите дамп в базу данных.
 ```sql
-source /home/tverdyakov/sakila-db/sakila-schema.sql
-source /home/tverdyakov/sakila-db/sakila-data.sql
+source /home/$user_name$/sakila-db/sakila-schema.sql
+source /home/$user_name$/sakila-db/sakila-data.sql
 SHOW DATABASES;
 ```
 
